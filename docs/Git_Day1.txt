@@ -21,6 +21,7 @@ Repository
 git init			// To create a repo
 git status			// To display the status of the repo
 git log				// Shows the commit ids
+git log --graph --oneline --decorate --all
 
 git add <file> 		//To add the files or folders to staging on every change or new before commiting
 git commit			//To commit file to add to the repo  -m to add message on the on the cmd line
@@ -45,7 +46,20 @@ git clean -f 	//wipes out all untracked files in directory
 
 git commit --amend		// To change the last commit message like message or adding new files that are staged
 
- 	
+
+git reset HEAD^			//^ - Resets head to the previous position
+
+
+Branching
+===========
+git branch <Branchname>			// Create a new branch
+git branch						//List all the braches along with master
+git checkout <BranchName>		//Checkout and change the head to Branch
+git checkout -b <BranchName>	//Create and checkout the new Branch 	
+
+Merge
+========
+git merge <BranchName>
 
 
 
