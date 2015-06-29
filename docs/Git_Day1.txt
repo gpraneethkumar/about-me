@@ -1,0 +1,16 @@
+GIT Training 		29 June 2015   Instructor : Ryan Morris
+-----------------------------------------------------------
+git config --global user.name "pgunti"		//Add user to your account
+git config --global user.email "pgunti@salesforce.com"	//Add email to your account
+git config --global --list  //List all the configs or <key> instead of --list
+
+
+git config --global core.autocrlf false   // True to set the line ending in Windows ( CRLF )to avoid white space versioning 
+											 and false for mac/linux ( LF )
+
+
+git config --global core.editor vi   // "sublime --n --w "  or "atom --wait" instead of vi
+											 
+
+
+
