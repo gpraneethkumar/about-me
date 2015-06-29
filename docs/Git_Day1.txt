@@ -39,6 +39,13 @@ git rm <file>		//Deletes the file or folder and stages on finishing
 git mv <file1> <file2> //Moving file and stage on finishing 
 git rm --cached 		//Remove only cache of staging not the changes in file
 
+git reset HEAD <file>	//To unstage the file
+
+git clean -f 	//wipes out all untracked files in directory
+
+git commit --amend		// To change the last commit message like message or adding new files that are staged
+
+ 	
 
 
 
