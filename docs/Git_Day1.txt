@@ -67,9 +67,14 @@ git branch --no-merge				//To see all the non merged branches
 
 git branch -d <branchname>			//To delete branch
 git branch -D <BranchName>			//To delete unmerged branch
+
+git mergr --abort					//To abort the merge if there is conflict or not willing
 git reflog							//History log
 
+git tag <BranchName> <Optional
 
+git stash
+git config --global alias.graph 'log --oneline --decorate --graph --all'
 
 
  		
