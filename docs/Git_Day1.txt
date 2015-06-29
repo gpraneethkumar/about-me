@@ -62,5 +62,14 @@ Merge
 git merge <BranchName>
 
 
+git branch --merged					//To see all the branches merged
+git branch --no-merge				//To see all the non merged branches
+
+git branch -d <branchname>			//To delete branch
+git branch -D <BranchName>			//To delete unmerged branch
+git reflog							//History log
+
+
+
 
  		
