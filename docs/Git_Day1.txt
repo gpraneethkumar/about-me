@@ -22,9 +22,24 @@ git init			// To create a repo
 git status			// To display the status of the repo
 git log				// Shows the commit ids
 
-git add <file> 		//To add the files or folders to staging
+git add <file> 		//To add the files or folders to staging on every change or new before commiting
 git commit			//To commit file to add to the repo  -m to add message on the on the cmd line
+					  -v 
+					  
+git diff --staged	//Diff of staged and commited
+git diff			//diff of unstaged change
+
+gitk 				//To show in UI
+
+git show <id>		//To show the more log of a commit id
+
+git log --oneline	//Shows oneline of a log
+
+git rm <file>		//Deletes the file or folder and stages on finishing 
+git mv <file1> <file2> //Moving file and stage on finishing 
+git rm --cached 		//Remove only cache of staging not the changes in file
 
 
 
 
+ 		
