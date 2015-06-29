@@ -1,5 +1,7 @@
 GIT Training 		29 June 2015   Instructor : Ryan Morris
 -----------------------------------------------------------
+Configs //Global, system, local
+==============================
 git config --global user.name "pgunti"		//Add user to your account
 git config --global user.email "pgunti@salesforce.com"	//Add email to your account
 git config --global --list  //List all the configs or <key> instead of --list
@@ -11,6 +13,18 @@ git config --global core.autocrlf false   // True to set the line ending in Wind
 
 git config --global core.editor vi   // "sublime --n --w "  or "atom --wait" instead of vi
 											 
+____________________________________________________
+
+Repository
+===========
+
+git init			// To create a repo
+git status			// To display the status of the repo
+git log				// Shows the commit ids
+
+git add <file> 		//To add the files or folders to staging
+git commit			//To commit file to add to the repo  -m to add message on the on the cmd line
+
 
 
 
