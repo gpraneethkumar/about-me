@@ -76,5 +76,14 @@ git tag <BranchName> <Optional
 git stash
 git config --global alias.graph 'log --oneline --decorate --graph --all'
 
+.gitignore
+
+
+
+REMOTE
+===========
+git remote add origin <remote-url>
+git push --set-upstream origin master
+
 
  		
